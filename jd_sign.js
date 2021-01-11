@@ -9,6 +9,7 @@ const download = require('download')
 
 // 京东Cookie
 const cookie = process.env.JD_COOKIE
+console.log("cookie:"+cookie)
 // 京东Cookie
 const dual_cookie = process.env.JD_DUAL_COOKIE
 // Server酱SCKEY
